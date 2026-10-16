@@ -5,7 +5,7 @@ server.listen(PORT, () => {
   console.log(`Server a la escucha por el puerto 3000`);
   sq.sync({
     logging: false,
-    force: false,
+    force: true,
     alter: false,
   })
     .then(() => {
