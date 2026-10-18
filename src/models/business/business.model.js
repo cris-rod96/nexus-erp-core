@@ -56,6 +56,7 @@ export default (sq) => {
     {
       tableName: "Businesses",
       timestamps: true,
+      underscored: true,
       indexes: [
         {
           unique: true,
