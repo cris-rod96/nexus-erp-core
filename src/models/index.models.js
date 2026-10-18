@@ -10,6 +10,7 @@ import MeasurementUnitModel from "./measurement_unit/measurement_unit.model.js";
 import PaymentMethodModel from "./payment_method/payment_method.model.js";
 import PermissionModel from "./permission/permission.model.js";
 import ProductModel from "./product/product.model.js";
+import ProductBusinessModel from "./product_business/product_business.model.js";
 import RoleModel from "./role/role.model.js";
 import RolePermissionModel from "./role_permission/role_permission.model.js";
 import TaxModel from "./tax/tax.model.js";
@@ -32,6 +33,7 @@ export const models = [
   PaymentMethodModel,
   PermissionModel,
   ProductModel,
+  ProductBusinessModel,
   RoleModel,
   RolePermissionModel,
   TaxModel,
