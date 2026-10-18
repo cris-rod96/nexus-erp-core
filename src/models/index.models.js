@@ -1,3 +1,4 @@
+import BatchModel from "./batch/batch.model.js";
 import BusinessesModel from "./business/business.model.js";
 import CategoryModel from "./category/category.model.js";
 import DocumentSequenceModel from "./document_sequence/document_sequence.model.js";
@@ -18,9 +19,11 @@ import ThirdPartyModel from "./third/third.model.js";
 import ThirdPartyBusinessModel from "./third_party_business/third_party_business.model.js";
 import UserBusinessModel from "./user_business/user_business.model.js";
 import UserModel from "./user/user.model.js";
-import VoucherType from "./voucher_type/voucher_type.model.js";
+import VoucherTypeModel from "./voucher_type/voucher_type.model.js";
+import WarehouseModel from "./warehouse/warehouse.model.js";
 
 export const models = [
+  BatchModel,
   BusinessesModel,
   CategoryModel,
   DocumentSequenceModel,
@@ -41,5 +44,6 @@ export const models = [
   ThirdPartyModel,
   UserBusinessModel,
   UserModel,
-  VoucherType,
+  VoucherTypeModel,
+  WarehouseModel,
 ];
