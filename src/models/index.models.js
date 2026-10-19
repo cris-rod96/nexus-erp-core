@@ -16,6 +16,7 @@ import ProductBusinessModel from "./product_business/product_business.model.js";
 import RoleModel from "./role/role.model.js";
 import RolePermissionModel from "./role_permission/role_permission.model.js";
 import SaleModel from "./sale/sale.model.js";
+import SaleDetailModel from "./sale_detail/sale_detail.model.js";
 import StockModel from "./stock/stock.model.js";
 import TaxModel from "./tax/tax.model.js";
 import ThirdPartyModel from "./third/third.model.js";
@@ -44,6 +45,7 @@ export const models = [
   RoleModel,
   RolePermissionModel,
   SaleModel,
+  SaleDetailModel,
   StockModel,
   TaxModel,
   ThirdPartyBusinessModel,
