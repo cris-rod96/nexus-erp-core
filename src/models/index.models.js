@@ -16,14 +16,15 @@ import ProductBusinessModel from "./product_business/product_business.model.js";
 import RoleModel from "./role/role.model.js";
 import RolePermissionModel from "./role_permission/role_permission.model.js";
 import SaleModel from "./sale/sale.model.js";
-import SaleDetailModel from "./sale_detail/sale_detail.model.js";
 import StockModel from "./stock/stock.model.js";
 import TaxModel from "./tax/tax.model.js";
 import ThirdPartyModel from "./third/third.model.js";
 import ThirdPartyBusinessModel from "./third_party_business/third_party_business.model.js";
 import UserBusinessModel from "./user_business/user_business.model.js";
 import UserModel from "./user/user.model.js";
+import VoucherAdditionalInfoModel from "./voucher_additional_info/voucher_additional_info.model.js";
 import VoucherTypeModel from "./voucher_type/voucher_type.model.js";
+import VoucherPaymentModel from "./voucher_payment/voucher_payment.model.js";
 import WarehouseModel from "./warehouse/warehouse.model.js";
 
 export const models = [
@@ -45,13 +46,14 @@ export const models = [
   RoleModel,
   RolePermissionModel,
   SaleModel,
-  SaleDetailModel,
   StockModel,
   TaxModel,
   ThirdPartyBusinessModel,
   ThirdPartyModel,
   UserBusinessModel,
   UserModel,
+  VoucherAdditionalInfoModel,
   VoucherTypeModel,
+  VoucherPaymentModel,
   WarehouseModel,
 ];
