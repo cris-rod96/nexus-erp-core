@@ -1,3 +1,4 @@
+import AccountModel from "./account/account.model.js";
 import BatchModel from "./batch/batch.model.js";
 import BusinessesModel from "./business/business.model.js";
 import CategoryModel from "./category/category.model.js";
@@ -28,6 +29,7 @@ import VoucherPaymentModel from "./voucher_payment/voucher_payment.model.js";
 import WarehouseModel from "./warehouse/warehouse.model.js";
 
 export const models = [
+  AccountModel,
   BatchModel,
   BusinessesModel,
   CategoryModel,
